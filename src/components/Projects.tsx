@@ -17,7 +17,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Featured Projects
+         Projects
         </motion.h2>
         
         <motion.div 
@@ -68,7 +68,7 @@ export default function Projects() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <a
+                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -77,8 +77,8 @@ export default function Projects() {
                   >
                     <Github className="w-5 h-5" />
                     Code
-                  </a>
-                  <a
+                  </a> *
+                   <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -87,7 +87,7 @@ export default function Projects() {
                   >
                     <ExternalLink className="w-5 h-5" />
                     Live Demo
-                  </a>
+                  </a> 
                 </div>
               </div>
             </motion.div>

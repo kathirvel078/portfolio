@@ -1,4 +1,5 @@
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Send } from 'lucide-react';
+// phone
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
@@ -71,7 +72,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Email</p>
-                  <p className="text-gray-900 font-medium">contact@roadsidecoder.com</p>
+                  <p className="text-gray-900 font-medium">Contact : kathirvelvlr108@gmail.com</p>
                 </div>
               </motion.div>
               
@@ -84,7 +85,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600">Location</p>
-                  <p className="text-gray-900 font-medium">Bangalore, India</p>
+                  <p className="text-gray-900 font-medium">MADURAI ,TAMILNADU</p>
                 </div>
               </motion.div>
             </div>
@@ -149,6 +150,7 @@ export default function Contact() {
                 <>
                   Send Message
                   <Send className="w-5 h-5" />
+                  
                 </>
               )}
             </motion.button>

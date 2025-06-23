@@ -27,18 +27,16 @@ export default function About() {
             variants={fadeInUp}
           >
             <img
-              src="/piyush.png"
-              alt="Piyush Agarwal"
+              src="/kathir.jpeg"
+              alt="K.KATHIRVEL"
               className="w-full h-full object-cover rounded-2xl"
             />
           </motion.div>
 
           <motion.div className="space-y-6" variants={staggerContainer}>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              Hi, I'm Piyush Agarwal, a passionate Full Stack Developer and
-              educator. I create content on YouTube through my channel
-              RoadsideCoder, where I share my knowledge and experience with the
-              developer community.
+              Hi, I'm kathirvel, a passionate Full Stack Developer.
+             
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
@@ -53,12 +51,12 @@ export default function About() {
               variants={fadeInUp}
             >
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900">3+</h3>
-                <p className="text-gray-600">Years Experience</p>
+                <h3 className="font-bold text-xl text-gray-900">Fresher</h3>
+                <p className="text-gray-600"> Computer Science Engineering</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900">125K+</h3>
-                <p className="text-gray-600">YouTube Subscribers</p>
+                <h3 className="font-bold text-xl text-gray-900">2+Year Experience</h3>
+                <p className="text-gray-600">DATA ENTERY</p>
               </div>
             </motion.div>
           </motion.div>

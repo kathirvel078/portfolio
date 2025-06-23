@@ -55,19 +55,19 @@ export default function Hero() {
               className="block text-white opacity-90"
               variants={fadeInUp}
             >
-              Building the Future
+             MY PORTFOLIO
             </motion.span>
             <motion.span 
               className={`block ${gradientText}`}
               variants={fadeInUp}
             >
-              One Line of Code
+              {/* One Line of Code */}
             </motion.span>
             <motion.span 
               className="block text-white opacity-90"
               variants={fadeInUp}
             >
-              at a Time
+              {/* at a Time */}
             </motion.span>
           </motion.h1>
 
@@ -75,7 +75,7 @@ export default function Hero() {
             className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto"
             variants={fadeInUp}
           >
-            Full Stack Developer | UI/UX Enthusiast | Problem Solver
+            Full Stack Developer | Problem Solver
           </motion.p>
 
           <motion.div 
